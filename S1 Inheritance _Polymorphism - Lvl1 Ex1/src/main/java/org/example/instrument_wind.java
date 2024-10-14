@@ -1,8 +1,8 @@
 package org.example;
 
-public class instrument_wind extends instrument{
+public class instrumentWind extends instrument{
 
-    public instrument_wind(String name, int price) {
+    public instrumentWind(String name, int price) {
         super(name, price);
     }
 
