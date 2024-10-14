@@ -1,6 +1,6 @@
 package org.example;
 
-public class instrument_cord extends instrument{
+public class instrumentCord extends instrument{
 
     public instrumentCord(String name, int price) {
         super(name, price);
