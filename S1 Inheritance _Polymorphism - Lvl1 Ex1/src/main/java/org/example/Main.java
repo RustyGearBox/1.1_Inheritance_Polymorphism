@@ -7,9 +7,9 @@ public class Main {
 
         ArrayList<instrument> instruments = new ArrayList<>();
 
-        instruments.add(new instrument_cord("Guitar",120));
-        instruments.add(new instrument_wind("Flute",60));
-        instruments.add(new instrument_percussion("Batery",600));
+        instruments.add(new instrumentCord("Guitar",120));
+        instruments.add(new instrumentWind("Flute",60));
+        instruments.add(new instrumentPercussion("Batery",600));
 
         for (instrument ins : instruments) {
             System.out.println(ins.play());
