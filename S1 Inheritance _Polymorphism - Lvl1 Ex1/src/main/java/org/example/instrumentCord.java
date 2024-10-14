@@ -2,7 +2,7 @@ package org.example;
 
 public class instrument_cord extends instrument{
 
-    public instrument_cord(String name, int price) {
+    public instrumentCord(String name, int price) {
         super(name, price);
     }
 
